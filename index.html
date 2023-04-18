@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Responsive Portfolio Website</title>
-	<!---custom css link---->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
@@ -15,9 +12,9 @@
 		<a href="#" class="logo">Desarrolla<span>do</span>r..</a>
 		<ul class="navlist">
 			<li><a href="#home" class="active">Home</a></li>
-			<li><a href="#aboutme">Sobre Mi</a></li>
+			<li><a href="#about">Sobre Mi</a></li>
 			<li><a href="#services">Servicios</a></li>
-			<li><a href="#portafolio">Portafolio</a></li>
+			<li><a href="#portfolio">Portafolio</a></li>
 			<li><a href="#contact">Contacto</a></li>
 		</ul>
 		<div class="bx bx-menu" id="menu-icon"></div>
@@ -36,7 +33,111 @@
 			</div>
 		</div>
 	</section>
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg" alt="Foto de una persona">
+		</div>
+		<div class="about-text">
+			<h2>Sobre <span>Mi</span></h2>
+			<h4>Desarrollador Web</h4>
+			<p>
+				Soy frontend developer, tecnico en administracion de Sistemas Informaticos, estudiante de Ciberseguridad,poseo un titulo C2 Proficiency en Ingles.Estoy en contante aprendizaje considerandome un autodidacta que disfruta de ver los proyectos hacerce realidad.
+			</p>
+		</div>
+		</section>
+		<section class="services" id="services">
+			<div class="main-text">
+				<h2><span>Mis</span>Servicios</h2>
+			</div>
+			<div class="services-content">
+				<div class="box">
+						<h3>Diseño Web</h3>
+						<p>
+							Si estás buscando armar la página web de tu empresa, te recomendamos que elijas cualquiera de los 2 planes.En ellos encontrarás todo lo que una pagina web profesional necesita en el mundo online.
+						</p>
+						<a href="#" class="btn">Mas Info</a>
+					</div>
+					<div class="box">
+						<div class="s-icon">
+						</div>
+						<h3>Diseño Creativo</h3>
+						<p>
+							Plan que incluye diseño web + Logo, el logo potencia la imagen de tu sitio web
+						</p>
+						<a href="#" class="btn">Mas Info</a>
+					</div>
 
+					<div class="box">
+						<div class="s-icon">
+						</div>
+						<h3>Diseño e-comerce</h3>
+						<p>
+							Este es el plan que necesitas si estas empezando con tu emprendimiento,un sitio web con pasarela de pago.
+						</p>
+						<a href="#" class="btn">Mas Info</a>
+				</div>
+			</div>
+		</section>
+		<section class="portfolio" id="portfolio">
+			<div class="main-text">
+				<h2><span>Proyectos </span>Recientes</h2>
+			</div>
+			<div class="portfolioContent">
+				<div class="row">
+					<img src="img/proyecto1.jpg" alt="Mesa con cafe y postres">
+					<div class="layer">
+						<h5>Diseño Visual</h5>
+						<p>Si necesitás un sitio informativo con textos y fotos, ésta es tu mejor opción si recién comenzás o querés mostrar lo que hacés en 6 simples solapas.
+						</p>
+						<a href="#"><i class="bx bx-link-external"></i></a>
+					</div>
+					<div class="row">
+						<img src="img/proyecto2.jpg" alt="Persona trabajando en su computadora">
+						<div class="layer">
+							<h5>Diseño e-comerce</h5>
+							<p>Si necesitás un sitio informativo con textos y fotos, enfocado a la vista movil esta es una buena opcion.
+							</p>
+							<a href="#"><i class="bx bx-link-external"></i></a>
+						</div>
+					</div>
+					<div class="row">
+						<img src="img/proyecto3.jpg" alt="Persona trabajando en su computadora">
+						<div class="layer">
+							<h5>Diseño Galeria</h5>
+							<p>Si necesitás un sitio con fotos, enfocado a la vista tipo galeria esta es una buena opcion.</p>
+							<a href="#"><i class="bx bx-link-external"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<div class="contact-text">
+				<h2><span>Contacta</span>me!</h2>
+				<h4>Si tenes un emprendimiento y estas buscando expandirte y tener mas lelgada a los clientes</h4>
+					<p>Soy desarrollador web y puedo ayudarte co-creando una web con mis habilidades y el diseño que tengas en mente.</p>
+				<div class="list">
+					<li><a href="#"></a>0303-456</li>
+					<li><a href="#"></a>altelefonoespero@quellames.tu</li>
+				</div>
+				<div class="contact-form">
+					<form action="">
+						<input type="name" placeholder="Escribe tu nombre">
+						<input type="email" placeholder="Escribe tu email">
+						<input type="number" placeholder="Escribe tu telefono">
+						<textarea name="" id="" cols="35" rows="10" placeholder="Comentame lo que necesites"></textarea>
+						<input type="submit" value="Enviar Mensaje" class="submit">
+					</form>
+				</div>
+			</div>
+		</section>
+		<section class="footer">
+			<div class="texto-final">
+				<p>Diseño por Diego para CoderHouse</p>
+			</div>
+			<div class="altop">
+				<a href="#home"><i><i class='bx bx-up-arrow-alt'></i></i></a>
+			</div>
+		</section>
 </body>
-
 </html>
